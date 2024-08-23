@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-df=pd.read_csv(r'E:\python\Practical Machine Learning\Project_3\GitHub\df_final.csv')
+df=pd.read_csv('df_final.csv')
 
 
 countries_names = list(df['Country'].astype(str).unique())
